@@ -12,6 +12,7 @@ public class Rabbit implements Prototype, Cloneable {
         this.owner = owner;
     }
 
+
     @Override
     public Rabbit clone() {
         //gọi clone, chuyển vào method
@@ -25,5 +26,12 @@ public class Rabbit implements Prototype, Cloneable {
         } catch (CloneNotSupportedException e) {
             throw new RuntimeException(e);
         }
+
+    }
+    public String toString() {
+        return "Rabbit{" +
+                "age=" + age +
+                ", owner+" + owner.getName() +
+                '}';
     }
 }
