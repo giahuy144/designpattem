@@ -6,7 +6,7 @@ public class Rabbit implements Prototype, Cloneable {
 
     private int age;
     private Person owner;
-
+        //tạo rabbit gốc
     public Rabbit(int age, Person owner) {
         this.age = age;
         this.owner = owner;
@@ -14,9 +14,11 @@ public class Rabbit implements Prototype, Cloneable {
 
     @Override
     public Rabbit clone() {
-
+        //gọi clone, chuyển vào method
         try {
+            //copy object
             Rabbit clone = (Rabbit) super.clone();
+            //deep copy
             clone.owner = new Person(owner);
             return clone;
 
