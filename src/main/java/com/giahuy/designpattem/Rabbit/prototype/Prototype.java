@@ -1,4 +1,6 @@
 package main.java.com.giahuy.designpattem.Rabbit.prototype;
 
-public class Prototype {
+public interface Prototype {
+    Prototype clone();
+
 }

@@ -1,6 +1,8 @@
 package main.java.com.giahuy.designpattem.Rabbit.model;
 
-public class Rabbit implements Cloneable {
+import main.java.com.giahuy.designpattem.Rabbit.prototype.Prototype;
+
+public class Rabbit implements Prototype, Cloneable {
 
     private int age;
     private Person owner;
