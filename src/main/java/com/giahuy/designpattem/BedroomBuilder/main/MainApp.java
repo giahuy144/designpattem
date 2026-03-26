@@ -8,7 +8,7 @@ import main.java.com.giahuy.designpattem.BedroomBuilder.model.House;
 public class MainApp {
 
     public static void main(String[] args) {
-
+        //tạo object r gán dữ liệu để tạo object thật
         Bedroom room1 = new BedroomBuilder()
                 .setColor("Blue")
                 .setWindows(2)
@@ -20,7 +20,7 @@ public class MainApp {
                 .setWindows(3)
                 .setTV(false)
                 .build();
-
+        //tạo builder nhà, thêm từng phòng, set phòng, build
         House house = new HouseBuilder()
                 .addRoom(room1)
                 .addRoom(room2)

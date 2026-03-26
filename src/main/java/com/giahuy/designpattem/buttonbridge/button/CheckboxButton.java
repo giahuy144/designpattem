@@ -1,0 +1,16 @@
+package main.java.com.giahuy.designpattem.buttonbridge.button;
+
+import main.java.com.giahuy.designpattem.buttonbridge.size.ButtonSize;
+
+public class CheckboxButton extends Button {
+
+    public CheckboxButton(ButtonSize size) {
+        super(size);
+    }
+
+    @Override
+    public void draw() {
+        size.setSize();
+        System.out.println("Checkbox Button");
+    }
+}
