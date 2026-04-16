@@ -9,7 +9,6 @@ import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.bu
 import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.buttonbridge.size.SmallSize;
 
 public class MainApp {
-
     public static void main(String[] args) {
 
         Button b1 = new RadioButton(new SmallSize());

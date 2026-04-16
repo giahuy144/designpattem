@@ -2,15 +2,14 @@ package main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.b
 
 import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.buttonbridge.size.ButtonSize;
 
-public class CheckboxButton extends Button {
-
-    public CheckboxButton(ButtonSize size) {
+public class CheckboxButton extends Button{
+    public CheckboxButton (ButtonSize size) {
         super(size);
     }
 
     @Override
     public void draw() {
-        size.setSize();
-        System.out.println("Checkbox Button");
+        System.out.println(size.getSize() + " Checkbox Button");
     }
+
 }

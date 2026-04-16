@@ -2,7 +2,7 @@ package main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.b
 
 import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.buttonbridge.size.ButtonSize;
 
-public class DropdownButton extends Button {
+public class DropdownButton extends Button{
 
     public DropdownButton(ButtonSize size) {
         super(size);
@@ -10,7 +10,7 @@ public class DropdownButton extends Button {
 
     @Override
     public void draw() {
-        size.setSize();
-        System.out.println("Dropdown Button");
+        System.out.println(size.getSize() + " Dropdown Button");
     }
+
 }
