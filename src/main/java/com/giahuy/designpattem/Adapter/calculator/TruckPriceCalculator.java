@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex1.Adapter.calculator;
+package main.java.com.giahuy.designpattem.Adapter.calculator;
 
 public class TruckPriceCalculator implements PriceCalculator {
     public double calculatePrice() {

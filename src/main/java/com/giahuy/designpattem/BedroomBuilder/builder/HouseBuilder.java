@@ -1,7 +1,7 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex4.BedroomBuilder.BedroomBuilder.builder;
+package main.java.com.giahuy.designpattem.BedroomBuilder.builder;
 
-import main.java.com.giahuy.designpattem.Creational_pattern_ex4.BedroomBuilder.BedroomBuilder.model.Bedroom;
-import main.java.com.giahuy.designpattem.Creational_pattern_ex4.BedroomBuilder.BedroomBuilder.model.House;
+import main.java.com.giahuy.designpattem.BedroomBuilder.model.Bedroom;
+import main.java.com.giahuy.designpattem.BedroomBuilder.model.House;
 
 import java.util.ArrayList;
 import java.util.List;

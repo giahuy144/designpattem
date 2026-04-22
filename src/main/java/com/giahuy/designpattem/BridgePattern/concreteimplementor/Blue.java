@@ -1,6 +1,6 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.concreteimplementor;
+package main.java.com.giahuy.designpattem.BridgePattern.concreteimplementor;
 
-import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.implementor.Color;
+import main.java.com.giahuy.designpattem.BridgePattern.implementor.Color;
 
 public class Blue implements Color {
     @Override

@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.CommandPattern.smartoffice.device;
+package main.java.com.giahuy.designpattem.smartoffice.device;
 
 
 public class Light implements Device {

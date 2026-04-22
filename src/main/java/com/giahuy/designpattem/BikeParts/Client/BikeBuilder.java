@@ -1,7 +1,7 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex3.BikeParts.BikeParts.Client;
+package main.java.com.giahuy.designpattem.BikeParts.Client;
 
-import main.java.com.giahuy.designpattem.Creational_pattern_ex3.BikeParts.BikeParts.Factory.BikeFactory;
-import main.java.com.giahuy.designpattem.Creational_pattern_ex3.BikeParts.BikeParts.Wheel.Wheel;
+import main.java.com.giahuy.designpattem.BikeParts.Factory.BikeFactory;
+import main.java.com.giahuy.designpattem.BikeParts.Wheel.Wheel;
 
 public class BikeBuilder {
     public void buildBike(BikeFactory factory) {

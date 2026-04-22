@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.CommandPattern.smartoffice.command;
+package main.java.com.giahuy.designpattem.smartoffice.command;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex3.BikeParts.BikeParts.Factory;
+package main.java.com.giahuy.designpattem.BikeParts.Factory;
 
-import main.java.com.giahuy.designpattem.Creational_pattern_ex3.BikeParts.BikeParts.Wheel.Wheel;
+import main.java.com.giahuy.designpattem.BikeParts.Wheel.Wheel;
 
 public interface BikeFactory {
     Wheel getWheel();

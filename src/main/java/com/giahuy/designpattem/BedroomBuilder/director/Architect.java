@@ -1,7 +1,7 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex4.BedroomBuilder.BedroomBuilder.director;
+package main.java.com.giahuy.designpattem.BedroomBuilder.director;
 
-import main.java.com.giahuy.designpattem.Creational_pattern_ex4.BedroomBuilder.BedroomBuilder.builder.BedroomBuilder;
-import main.java.com.giahuy.designpattem.Creational_pattern_ex4.BedroomBuilder.BedroomBuilder.model.Bedroom;
+import main.java.com.giahuy.designpattem.BedroomBuilder.builder.BedroomBuilder;
+import main.java.com.giahuy.designpattem.BedroomBuilder.model.Bedroom;
 
 public class Architect {
 

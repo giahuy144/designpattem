@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex6.ProxyPattern.service;
+package main.java.com.giahuy.designpattem.ProxyPattern.service;
 
 
 public interface Inventory {

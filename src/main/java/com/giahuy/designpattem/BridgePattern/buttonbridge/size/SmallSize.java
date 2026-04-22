@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.buttonbridge.size;
+package main.java.com.giahuy.designpattem.BridgePattern.buttonbridge.size;
 
 public class SmallSize implements ButtonSize{
     public String getSize(){

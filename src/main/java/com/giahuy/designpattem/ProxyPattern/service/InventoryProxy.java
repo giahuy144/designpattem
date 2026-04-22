@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex6.ProxyPattern.service;
+package main.java.com.giahuy.designpattem.ProxyPattern.service;
 
 public class InventoryProxy implements Inventory {
     private RealInventory realInventory;  // null cho đến khi thực sự cần

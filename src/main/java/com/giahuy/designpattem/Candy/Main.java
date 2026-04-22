@@ -1,7 +1,7 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex2.Candy.Candy;
+package main.java.com.giahuy.designpattem.Candy;
 
-import main.java.com.giahuy.designpattem.Creational_pattern_ex2.Candy.Candy.creator.CandyStore;
-import main.java.com.giahuy.designpattem.Creational_pattern_ex2.Candy.Candy.creator.MyCandyStore;
+import main.java.com.giahuy.designpattem.Candy.creator.CandyStore;
+import main.java.com.giahuy.designpattem.Candy.creator.MyCandyStore;
 
 public class Main {
     public static void main(String[] args) {

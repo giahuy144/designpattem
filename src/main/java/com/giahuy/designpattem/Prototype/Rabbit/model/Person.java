@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex5.Rabbit.model;
+package main.java.com.giahuy.designpattem.Prototype.Rabbit.model;
 
 public class Person {
 

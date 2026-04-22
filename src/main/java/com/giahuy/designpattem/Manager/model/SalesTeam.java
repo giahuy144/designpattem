@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex3.Manager.model;
+package main.java.com.giahuy.designpattem.Manager.model;
 
 import java.util.ArrayList;
 import java.util.List;

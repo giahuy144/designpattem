@@ -1,8 +1,8 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex5.Rabbit.main;
+package main.java.com.giahuy.designpattem.Prototype.Rabbit.main;
 
 
-import main.java.com.giahuy.designpattem.Creational_pattern_ex5.Rabbit.model.Person;
-import main.java.com.giahuy.designpattem.Creational_pattern_ex5.Rabbit.model.Rabbit;
+import main.java.com.giahuy.designpattem.Prototype.Rabbit.model.Person;
+import main.java.com.giahuy.designpattem.Prototype.Rabbit.model.Rabbit;
 
 public class MainApp {
 

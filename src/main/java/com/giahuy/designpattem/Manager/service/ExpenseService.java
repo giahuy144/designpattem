@@ -1,7 +1,7 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex3.Manager.service;
+package main.java.com.giahuy.designpattem.Manager.service;
 
 
-import main.java.com.giahuy.designpattem.Structural_pattern_ex3.Manager.model.Payee;
+import main.java.com.giahuy.designpattem.Manager.model.Payee;
 
 public class ExpenseService {
 

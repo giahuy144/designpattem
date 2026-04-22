@@ -1,6 +1,6 @@
-package main.java.com.giahuy.designpattem.CommandPattern.smartoffice.command;
+package main.java.com.giahuy.designpattem.smartoffice.command;
 
-import main.java.com.giahuy.designpattem.CommandPattern.smartoffice.device.Blind;
+import main.java.com.giahuy.designpattem.smartoffice.device.Blind;
 
 public class BlindSetPositionCommand implements Command {
     private Blind blind;

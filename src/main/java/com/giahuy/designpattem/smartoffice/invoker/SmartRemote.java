@@ -1,6 +1,6 @@
-package main.java.com.giahuy.designpattem.CommandPattern.smartoffice.invoker;
+package main.java.com.giahuy.designpattem.smartoffice.invoker;
 
-import main.java.com.giahuy.designpattem.CommandPattern.smartoffice.command.Command;
+import main.java.com.giahuy.designpattem.smartoffice.command.Command;
 
 import java.util.ArrayList;
 import java.util.List;

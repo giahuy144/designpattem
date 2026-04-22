@@ -1,10 +1,10 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.main;
+package main.java.com.giahuy.designpattem.BridgePattern.main;
 
-import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.abstraction.Shape;
-import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.concreteimplementor.Blue;
-import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.concreteimplementor.Red;
-import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.refinedabstraction.Circle;
-import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.refinedabstraction.Triangle;
+import main.java.com.giahuy.designpattem.BridgePattern.abstraction.Shape;
+import main.java.com.giahuy.designpattem.BridgePattern.concreteimplementor.Blue;
+import main.java.com.giahuy.designpattem.BridgePattern.concreteimplementor.Red;
+import main.java.com.giahuy.designpattem.BridgePattern.refinedabstraction.Circle;
+import main.java.com.giahuy.designpattem.BridgePattern.refinedabstraction.Triangle;
 
 public class MainApp {
 

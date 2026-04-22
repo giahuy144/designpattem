@@ -1,6 +1,6 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.abstraction;
+package main.java.com.giahuy.designpattem.BridgePattern.abstraction;
 
-import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.implementor.Color;
+import main.java.com.giahuy.designpattem.BridgePattern.implementor.Color;
 
 public abstract class Shape {
 

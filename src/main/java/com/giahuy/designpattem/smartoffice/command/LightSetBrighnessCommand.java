@@ -1,6 +1,6 @@
-package main.java.com.giahuy.designpattem.CommandPattern.smartoffice.command;
+package main.java.com.giahuy.designpattem.smartoffice.command;
 
-import main.java.com.giahuy.designpattem.CommandPattern.smartoffice.device.Light;
+import main.java.com.giahuy.designpattem.smartoffice.device.Light;
 
 public class LightSetBrighnessCommand {
     private Light light;

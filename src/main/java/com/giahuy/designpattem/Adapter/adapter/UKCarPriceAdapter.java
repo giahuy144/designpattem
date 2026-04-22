@@ -1,7 +1,7 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex1.Adapter.adapter;
+package main.java.com.giahuy.designpattem.Adapter.adapter;
 
-import main.java.com.giahuy.designpattem.Structural_pattern_ex1.Adapter.calculator.PriceCalculator;
-import main.java.com.giahuy.designpattem.Structural_pattern_ex1.Adapter.external.UKCarPriceCalculator;
+import main.java.com.giahuy.designpattem.Adapter.calculator.PriceCalculator;
+import main.java.com.giahuy.designpattem.Adapter.external.UKCarPriceCalculator;
 
 public class UKCarPriceAdapter implements PriceCalculator{
     private UKCarPriceCalculator ukCalculator;

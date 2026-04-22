@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex6.ProxyPattern.model;
+package main.java.com.giahuy.designpattem.ProxyPattern.model;
 
 public class Item {
     private final String name;

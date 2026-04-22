@@ -1,9 +1,9 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex3.Manager.Main;
+package main.java.com.giahuy.designpattem.Manager.Main;
 
-import main.java.com.giahuy.designpattem.Structural_pattern_ex3.Manager.model.Manager;
-import main.java.com.giahuy.designpattem.Structural_pattern_ex3.Manager.model.SalesTeam;
-import main.java.com.giahuy.designpattem.Structural_pattern_ex3.Manager.model.Salesperson;
-import main.java.com.giahuy.designpattem.Structural_pattern_ex3.Manager.service.ExpenseService;
+import main.java.com.giahuy.designpattem.Manager.model.Manager;
+import main.java.com.giahuy.designpattem.Manager.model.SalesTeam;
+import main.java.com.giahuy.designpattem.Manager.model.Salesperson;
+import main.java.com.giahuy.designpattem.Manager.service.ExpenseService;
 
 public class Main {
     public static void main(String[] args) {

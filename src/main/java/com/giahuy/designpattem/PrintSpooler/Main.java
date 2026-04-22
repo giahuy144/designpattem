@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex1.PrintSpooler.PrintSpooler;
+package main.java.com.giahuy.designpattem.PrintSpooler;
 
 public class Main {
 	public static void main(String[] args) {

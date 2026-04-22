@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex4.BedroomBuilder.BedroomBuilder.model;
+package main.java.com.giahuy.designpattem.BedroomBuilder.model;
 
 import java.util.List;
 

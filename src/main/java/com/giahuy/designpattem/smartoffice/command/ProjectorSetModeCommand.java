@@ -1,7 +1,7 @@
-package main.java.com.giahuy.designpattem.CommandPattern.smartoffice.command;
+package main.java.com.giahuy.designpattem.smartoffice.command;
 
-import main.java.com.giahuy.designpattem.CommandPattern.smartoffice.device.Projector;
-import main.java.com.giahuy.designpattem.CommandPattern.smartoffice.device.ProjectorMode;
+import main.java.com.giahuy.designpattem.smartoffice.device.Projector;
+import main.java.com.giahuy.designpattem.smartoffice.device.ProjectorMode;
 
 public class ProjectorSetModeCommand implements Command {
         private Projector projector;

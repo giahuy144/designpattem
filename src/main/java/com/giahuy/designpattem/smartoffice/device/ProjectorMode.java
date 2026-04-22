@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.CommandPattern.smartoffice.device;
+package main.java.com.giahuy.designpattem.smartoffice.device;
 
 public enum ProjectorMode {
     WORK("Working mode - High brightness"),

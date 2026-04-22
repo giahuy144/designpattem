@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.CommandPattern.smartoffice.device;
+package main.java.com.giahuy.designpattem.smartoffice.device;
 
 public class Blind implements Device {
     private int position; // 0% = closed (down), 100% = open (up)

@@ -1,6 +1,6 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex5.Rabbit.model;
+package main.java.com.giahuy.designpattem.Prototype.Rabbit.model;
 
-import main.java.com.giahuy.designpattem.Creational_pattern_ex5.prototype.Prototype;
+import main.java.com.giahuy.designpattem.Prototype.prototype.Prototype;
 
 public class Rabbit implements Prototype, Cloneable {
 

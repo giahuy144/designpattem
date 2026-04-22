@@ -1,6 +1,6 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.buttonbridge.button;
+package main.java.com.giahuy.designpattem.BridgePattern.buttonbridge.button;
 
-import main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.buttonbridge.size.ButtonSize;
+import main.java.com.giahuy.designpattem.BridgePattern.buttonbridge.size.ButtonSize;
 
 public class RadioButton extends Button{
 

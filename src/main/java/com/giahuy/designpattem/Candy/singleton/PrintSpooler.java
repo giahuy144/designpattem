@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex2.Candy.Candy.singleton;
+package main.java.com.giahuy.designpattem.Candy.singleton;
 
 public class PrintSpooler {
     private static PrintSpooler instance;

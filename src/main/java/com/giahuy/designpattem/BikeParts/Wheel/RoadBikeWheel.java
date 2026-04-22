@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex3.BikeParts.BikeParts.Wheel;
+package main.java.com.giahuy.designpattem.BikeParts.Wheel;
 
 public class RoadBikeWheel implements Wheel{
     @Override

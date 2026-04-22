@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex2.BridgePattern.implementor;
+package main.java.com.giahuy.designpattem.BridgePattern.implementor;
 
 public interface Color {
     void applyColor();

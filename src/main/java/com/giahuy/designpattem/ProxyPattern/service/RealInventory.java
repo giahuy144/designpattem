@@ -1,7 +1,7 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex6.ProxyPattern.service;
+package main.java.com.giahuy.designpattem.ProxyPattern.service;
 
 
-import main.java.com.giahuy.designpattem.Structural_pattern_ex6.ProxyPattern.model.Item;
+import main.java.com.giahuy.designpattem.ProxyPattern.model.Item;
 
 import java.util.ArrayList;
 import java.util.List;

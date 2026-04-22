@@ -1,6 +1,6 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex2.Candy.Candy.creator;
+package main.java.com.giahuy.designpattem.Candy.creator;
 
-import main.java.com.giahuy.designpattem.Creational_pattern_ex2.Candy.Candy.factorymethod.Candy;
+import main.java.com.giahuy.designpattem.Candy.factorymethod.Candy;
 
 public abstract class CandyStore {
     public void orderCandy(String type) {

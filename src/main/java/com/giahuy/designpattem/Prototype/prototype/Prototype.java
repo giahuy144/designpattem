@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Creational_pattern_ex5.prototype;
+package main.java.com.giahuy.designpattem.Prototype.prototype;
 
 public interface Prototype {
     Prototype clone();

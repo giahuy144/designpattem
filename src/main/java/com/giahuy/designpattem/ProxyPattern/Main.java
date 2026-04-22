@@ -1,8 +1,8 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex6.ProxyPattern;
+package main.java.com.giahuy.designpattem.ProxyPattern;
 
 
-import main.java.com.giahuy.designpattem.Structural_pattern_ex6.ProxyPattern.service.Inventory;
-import main.java.com.giahuy.designpattem.Structural_pattern_ex6.ProxyPattern.service.InventoryProxy;
+import main.java.com.giahuy.designpattem.ProxyPattern.service.Inventory;
+import main.java.com.giahuy.designpattem.ProxyPattern.service.InventoryProxy;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

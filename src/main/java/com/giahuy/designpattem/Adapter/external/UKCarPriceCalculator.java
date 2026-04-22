@@ -1,4 +1,4 @@
-package main.java.com.giahuy.designpattem.Structural_pattern_ex1.Adapter.external;
+package main.java.com.giahuy.designpattem.Adapter.external;
 
 public class UKCarPriceCalculator {
     public double getPrice() {
