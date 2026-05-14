@@ -6,6 +6,9 @@ import java.beans.PropertyChangeSupport;
 public class Connection {
     private String name;
     private String status;
+    //suppor là object java cung cấp sẵn để quản lý:
+    //đăng ký observer
+    //gửi notification
     private final PropertyChangeSupport support
             = new PropertyChangeSupport(this);
 
@@ -17,7 +20,9 @@ public class Connection {
 
     public void setStatus(String newStatus) {
         String old = this.status;
+        //update status mới
         this.status = newStatus;
+        //jv sẽ duyệt toàn bộ observer, gọi "propertychange" của từng observer
         support.firePropertyChange("status", old, newStatus);
     }
 

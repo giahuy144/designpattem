@@ -7,6 +7,7 @@ import java.util.NoSuchElementException;
 public class InStockIterator implements Iterator<Item> {
     private List<Item> inventoryList;
     private int currentIndex = 0;
+    //Iterator cho phép duyệt qua các phần tử trong collection mà không cần biết bên trong như thế nào
 
     public InStockIterator(List<Item> inventoryList) {
         this.inventoryList = inventoryList;
@@ -14,12 +15,11 @@ public class InStockIterator implements Iterator<Item> {
 
     @Override
     public boolean hasNext() {
-        // Fast-forward over any items that are NOT in stock
+        // nếu item hiện tại hết hàng, tự động skip
         while (currentIndex < inventoryList.size() && !inventoryList.get(currentIndex).isInStock()) {
             currentIndex++;
         }
 
-        // If we haven't hit the end of the list, we have a valid next item
         return currentIndex < inventoryList.size();
     }
 
@@ -28,7 +28,7 @@ public class InStockIterator implements Iterator<Item> {
         if (!hasNext()) {
             throw new NoSuchElementException();
         }
-        // Return the item and immediately increment the index
+        // trả item hiện tại rôi tăng index
         return inventoryList.get(currentIndex++);
     }
 }

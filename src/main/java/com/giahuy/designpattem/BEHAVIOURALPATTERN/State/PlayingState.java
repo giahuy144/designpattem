@@ -8,6 +8,7 @@ public class PlayingState implements State {
 
     @Override
     public void pause(MediaPlayer mp) {
+        //nếu đang play mà play tiếp thì không đổi state
         mp.setState(new PausedState());
         mp.setIcon("⏸");
         System.out.println("Tạm dừng " + mp.getIcon());
