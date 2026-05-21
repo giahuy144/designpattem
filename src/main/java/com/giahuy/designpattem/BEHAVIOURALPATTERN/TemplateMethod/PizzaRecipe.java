@@ -2,8 +2,8 @@ package main.java.com.giahuy.designpattem.BEHAVIOURALPATTERN.TemplateMethod;
 
 public abstract class PizzaRecipe {
 
-    // THE TEMPLATE METHOD
-    // Marked 'final' so the sequence of these steps cannot be altered by subclasses.
+    //định nghĩa sẳn khung xử lý thuật toán trong class cha
+    //các bước cụ thể sẽ được class con cài đặt
     public final void makePizza() {
         System.out.println("--- Starting new pizza order ---");
         makeDough();
@@ -23,7 +23,6 @@ public abstract class PizzaRecipe {
         System.out.println("Baking at 400°C for 15 minutes.");
     }
 
-    // Abstract Steps: Subclasses MUST implement these their own way
     protected abstract void addSauce();
     protected abstract void addToppings();
 }

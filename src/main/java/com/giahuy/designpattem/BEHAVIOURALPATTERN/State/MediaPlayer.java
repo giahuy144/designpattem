@@ -1,6 +1,7 @@
 package main.java.com.giahuy.designpattem.BEHAVIOURALPATTERN.State;
 
 public class MediaPlayer {
+    //cho phép thay đổi hành vi khi trạng thái thay đổi
     private State state;
     private String icon;
 

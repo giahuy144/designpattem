@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SocialMediaFeed implements PropertyChangeListener {
-    //implement bắt buộc phải có propertychange
-    //propertychange hàm này tự động chạy khi subject thay đổi
+    //định nghĩa quan hệ 1 chiều
+    //khi object thay đổi trạng thái, các object phụ thuộc sẽ tự động được thông báo
     private String owner;
     private List<String> statuses = new ArrayList<>();
 
